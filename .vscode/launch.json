@@ -2,6 +2,25 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "name": "Api",
+            "type": "debugpy",
+            "request": "launch",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}",
+            "module": "api.main",
+            "env": {
+                "PORT": "8001",
+                "OLLAMA_HOST": "http://127.0.0.1:11434"
+            }
+        },
+        {
+            "name": "Web",
+            "request": "launch",
+            "type": "chrome",
+            "url": "http://localhost:3000",
+            "webRoot": "${workspaceFolder}/src"
+        },
+        {
             "name": "Deepwiki-Open",
             "type": "python",
             "request": "launch",

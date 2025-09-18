@@ -33,7 +33,7 @@
 
 ```bash
 # リポジトリをクローン
-git clone https://github.com/AsyncFuncAI/deepwiki-open.git
+git clone https://github.com/hyy215/deepwiki-open.git
 cd deepwiki-open
 
 # APIキーを含む.envファイルを作成
@@ -269,7 +269,7 @@ Docker イメージをローカルでビルドしたい場合：
 
 ```bash
 # リポジトリをクローン
-git clone https://github.com/AsyncFuncAI/deepwiki-open.git
+git clone https://github.com/hyy215/deepwiki-open.git
 cd deepwiki-open
 
 # Dockerイメージをビルド

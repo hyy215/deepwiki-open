@@ -33,7 +33,7 @@
 
 ```bash
 # Clone o repositório
-git clone https://github.com/AsyncFuncAI/deepwiki-open.git
+git clone https://github.com/hyy215/deepwiki-open.git
 cd deepwiki-open
 
 # Crie um arquivo .env com suas chaves de API
@@ -384,7 +384,7 @@ Se você quiser construir a imagem Docker localmente:
 
 ```bash
 # Clone o repositório
-git clone https://github.com/AsyncFuncAI/deepwiki-open.git
+git clone https://github.com/hyy215/deepwiki-open.git
 cd deepwiki-open
 
 # Construa a imagem Docker

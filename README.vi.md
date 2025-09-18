@@ -33,7 +33,7 @@
 
 ```bash
 # Clone repository
-git clone https://github.com/AsyncFuncAI/deepwiki-open.git
+git clone https://github.com/hyy215/deepwiki-open.git
 cd deepwiki-open
 
 # Tạo .env file với API keys
@@ -222,7 +222,7 @@ docker run -p 8001:8001 -p 3000:3000 \
 
 ```bash
 # Clone repository
-git clone https://github.com/AsyncFuncAI/deepwiki-open.git
+git clone https://github.com/hyy215/deepwiki-open.git
 cd deepwiki-open
 
 # Build Docker image

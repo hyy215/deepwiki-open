@@ -33,7 +33,7 @@
 
 ```bash
 # Clonar el repositorio
-git clone https://github.com/AsyncFuncAI/deepwiki-open.git
+git clone https://github.com/hyy215/deepwiki-open.git
 cd deepwiki-open
 
 # Crear un archivo .env con tus claves API

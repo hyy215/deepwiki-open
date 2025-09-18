@@ -33,7 +33,7 @@
 
 ```bash
 # Клонируйте репозиторий
-git clone https://github.com/AsyncFuncAI/deepwiki-open.git
+git clone https://github.com/hyy215/deepwiki-open.git
 cd deepwiki-open
 
 # Создайте файл .env с вашими API-ключами
@@ -374,7 +374,7 @@ docker run -p 8001:8001 -p 3000:3000 \
 #### Локальная сборка Docker-образа
 
 ```bash
-git clone https://github.com/AsyncFuncAI/deepwiki-open.git
+git clone https://github.com/hyy215/deepwiki-open.git
 cd deepwiki-open
 
 docker build -t deepwiki-open .

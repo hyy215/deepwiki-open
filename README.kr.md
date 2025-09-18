@@ -33,7 +33,7 @@
 
 ```bash
 # 저장소 클론
-git clone https://github.com/AsyncFuncAI/deepwiki-open.git
+git clone https://github.com/hyy215/deepwiki-open.git
 cd deepwiki-open
 
 # API 키를 포함한 .env 파일 생성
@@ -259,7 +259,7 @@ docker run -p 8001:8001 -p 3000:3000 \
 
 ```bash
 # 저장소 클론
-git clone https://github.com/AsyncFuncAI/deepwiki-open.git
+git clone https://github.com/hyy215/deepwiki-open.git
 cd deepwiki-open
 
 # Docker 이미지 빌드

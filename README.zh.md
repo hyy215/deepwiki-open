@@ -33,7 +33,7 @@
 
 ```bash
 # 克隆仓库
-git clone https://github.com/AsyncFuncAI/deepwiki-open.git
+git clone https://github.com/hyy215/deepwiki-open.git
 cd deepwiki-open
 
 # 创建包含API密钥的.env文件

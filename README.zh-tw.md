@@ -33,7 +33,7 @@
 
 ```bash
 # 複製儲存庫
-git clone https://github.com/AsyncFuncAI/deepwiki-open.git
+git clone https://github.com/hyy215/deepwiki-open.git
 cd deepwiki-open
 
 # 建立包含 API 金鑰的 .env 檔案
@@ -392,7 +392,7 @@ docker run -p 8001:8001 -p 3000:3000 \
 
 ```bash
 # 複製儲存庫
-git clone https://github.com/AsyncFuncAI/deepwiki-open.git
+git clone https://github.com/hyy215/deepwiki-open.git
 cd deepwiki-open
 
 # 建置 Docker 映像

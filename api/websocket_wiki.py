@@ -546,10 +546,12 @@ This file contains...
                 response = await model.acall(api_kwargs=api_kwargs, model_type=ModelType.LLM)
                 # Handle streaming response from Ollama
                 async for chunk in response:
-                    text = getattr(chunk, 'response', None) or getattr(chunk, 'text', None) or str(chunk)
-                    if text and not text.startswith('model=') and not text.startswith('created_at='):
-                        text = text.replace('<think>', '').replace('</think>', '')
-                        await websocket.send_text(text)
+                    message = getattr(chunk, "message", None)
+                    if message and getattr(message, "content", None):
+                        content = message.content
+                        content = content.replace("<think>", "").replace("</think>", "")
+                        if content:
+                            await websocket.send_text(content)
                 # Explicitly close the WebSocket connection after the response is complete
                 await websocket.close()
             elif request.provider == "openrouter":

@@ -146,10 +146,6 @@ class AuthorizationConfig(BaseModel):
 
 from api.config import configs, WIKI_AUTH_MODE, WIKI_AUTH_CODE
 
-@app.get("/lang/config")
-async def get_lang_config():
-    return configs["lang_config"]
-
 @app.get("/auth/status")
 async def get_auth_status():
     """

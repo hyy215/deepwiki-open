@@ -18,7 +18,8 @@
             "request": "launch",
             "type": "chrome",
             "url": "http://localhost:3000",
-            "webRoot": "${workspaceFolder}/src"
+            "webRoot": "${workspaceFolder}/src",
+            "preLaunchTask": "Start Web Dev Server."
         },
         {
             "name": "Deepwiki-Open",

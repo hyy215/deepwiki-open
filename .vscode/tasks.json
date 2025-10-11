@@ -1,0 +1,21 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Start Web Dev Server.",
+      "type": "shell",
+      "command": "yarn --cwd web dev",
+      "isBackground": true,
+      "problemMatcher": {
+        "pattern": [
+          { "regexp": "." }
+        ],
+        "background": {
+          "activeOnStart": true,
+          "beginsPattern": "started server",
+          "endsPattern": "localhost:3000"
+        }
+      }
+    }
+  ]
+}
